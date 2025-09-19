@@ -13,7 +13,7 @@ annotations:
         x: 520.7664093801868
         y: 97.75410335433475
 description: Descrizione
-namespace: Ca.CaepFlow,Demo
+namespace: Ca.CaepFlow.Demo
 author: CodeArchitects
 target:
   framework: net
