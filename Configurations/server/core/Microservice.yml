@@ -10,22 +10,29 @@ disableRequiredKeyword: true
 data:
   orm: EntityFrameworkCore
 children:
-- id: 7bc5ad42-298e-48a6-918c-031cbc0a7654
-  type: operation
-- id: 78e25dda-be4f-4a43-a8a5-db6fc014978a
-  type: dto
-- id: bc7a7a38-c4d2-4c6c-a510-cc01f15b8cf0
-  type: entity
+  - id: 7bc5ad42-298e-48a6-918c-031cbc0a7654
+    type: operation
+  - id: 78e25dda-be4f-4a43-a8a5-db6fc014978a
+    type: dto
+  - id: bc7a7a38-c4d2-4c6c-a510-cc01f15b8cf0
+    type: entity
 interactions:
-- type: database
-  targetId: 6ee9ae25-4c11-4781-9df2-52ced37d4726
-  level: container
-- type: gateway
-  targetId: b4b2b390-8779-42d3-aec1-ee6380b3440c
-  level: container
+  - type: database
+    targetId: 6ee9ae25-4c11-4781-9df2-52ced37d4726
+    level: container
+  - type: gateway
+    targetId: b4b2b390-8779-42d3-aec1-ee6380b3440c
+    level: container
 mappings:
-- entity: DataEntity
-  contract: DataTransferObject
-- entity: DataEntity
-  contract: DataTransferObject
-  inverse: true
+  - entity: DataEntity
+    contract: DataTransferObject
+  - entity: DataEntity
+    contract: DataTransferObject
+    inverse: true
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      container:
+        x: 264.5
+        y: 80.5

@@ -1,0 +1,23 @@
+id: 41da6925-f4e4-bc4a-27ec-8c7a1f1a527e
+type: service
+name: NewService
+interactions:
+  - targetId: 6ee9ae25-4c11-4781-9df2-52ced37d4726
+    type: database
+    level: container
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      container:
+        x: 520.7664093801868
+        y: 97.75410335433475
+description: Descrizione
+namespace: Ca.CaepFlow,Demo
+author: CodeArchitects
+target:
+  framework: net
+  version: 9
+generationMode: default
+data:
+  orm: EntityFrameworkCore

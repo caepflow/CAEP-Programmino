@@ -3,9 +3,22 @@ type: person
 description: Person that use the system
 name: Person
 interactions:
-- type: software-system
-  targetId: 07430a05-1dd7-4f2a-bdd9-dd46f3c53da1
-  level: context
-- type: web-application
-  targetId: f1d8d227-c4e2-451e-8b67-7f029198b476
-  level: container
+  - type: software-system
+    targetId: 07430a05-1dd7-4f2a-bdd9-dd46f3c53da1
+    level: context
+  - type: web-application
+    targetId: f1d8d227-c4e2-451e-8b67-7f029198b476
+    level: container
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      context:
+        x: 90.5
+        y: 56
+      container:
+        x: 916.5
+        y: 80.5
+      component:
+        x: 419.5
+        y: 80.5

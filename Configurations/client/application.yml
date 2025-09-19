@@ -9,9 +9,16 @@ rootNamespace: Ca.CaepFlow.Containers
 baseApiUrl: ca/caepflow
 isFederable: true
 interactions:
-- type: domain
-  targetId: e71086fe-57c5-4336-9182-eccb5325ecbb
-  level: component
-- type: service
-  targetId: f00e83b8-a447-49e1-8be5-8ec0ded37871
-  level: component
+  - type: domain
+    targetId: e71086fe-57c5-4336-9182-eccb5325ecbb
+    level: component
+  - type: service
+    targetId: f00e83b8-a447-49e1-8be5-8ec0ded37871
+    level: component
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      component:
+        x: 140.5
+        y: 80.5

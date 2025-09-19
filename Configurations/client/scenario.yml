@@ -3,3 +3,10 @@ name: Scenario
 type: scenario
 description: Example of scenario
 namespace: Ca.CaepFlow.Domain.Scenario
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      component:
+        x: 140.5
+        y: 582.5

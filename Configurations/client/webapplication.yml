@@ -7,9 +7,26 @@ author: CodeArchitects
 target: angular@19
 architecture: single-page-application
 children:
-- id: 9ea5dba9-a8a8-48c6-9cfa-abe7efcdcdc4
-  type: application
-- id: e71086fe-57c5-4336-9182-eccb5325ecbb
-  type: domain
-- id: 8cf394e3-7383-494e-b25c-1bf4d6a3a339
-  type: scenario
+  - id: 9ea5dba9-a8a8-48c6-9cfa-abe7efcdcdc4
+    type: application
+  - id: e71086fe-57c5-4336-9182-eccb5325ecbb
+    type: domain
+  - id: 8cf394e3-7383-494e-b25c-1bf4d6a3a339
+    type: scenario
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      container:
+        x: 639.5
+        y: 376
+      component:
+        x: 130.5
+        y: 321.5
+  - namespace: c4modeler
+    name: boundary
+    value:
+      x: 140.5
+      y: 331.5
+      width: 281
+      height: 663
