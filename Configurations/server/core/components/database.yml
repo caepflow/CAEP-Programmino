@@ -1,0 +1,5 @@
+id: 6ee9ae25-4c11-4781-9df2-52ced37d4726
+type: database
+provider: sqlserver
+name: Database
+description: Example of database with SQL Server as provider
