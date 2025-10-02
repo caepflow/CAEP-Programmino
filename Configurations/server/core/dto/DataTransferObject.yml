@@ -1,0 +1,15 @@
+id: 7c16717d-32a5-476a-a092-e82161d5b776
+type: dto
+name: DataTransferObject
+dtoType: entity
+description: Example of a Dto
+fields:
+- name: name
+  type: string
+  description: Field name
+- name: description
+  type: string
+  description: Field description
+- name: code
+  type: integer
+  description: Code of the item
