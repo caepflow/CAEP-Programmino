@@ -1,0 +1,17 @@
+id: 690b7af4-e00f-4b12-851f-1a7c91e9858a
+type: application
+interactions:
+- targetId: 740962cc-02e8-40f8-955b-83e18d4c00fe
+  type: domain
+  level: component
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    f4eba468-7a9c-40b7-bfaa-870d8092e0dc:
+      x: 140.5
+      y: 81
+name: NewApplication
+author: CodeArchitects
+baseApiUrl: ca/baseapi
+description: Application layer

@@ -1,0 +1,14 @@
+id: 868f4dcd-838b-450f-bcf9-87ebee173b04
+type: web-socket-hub
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    f6f7a7a6-2bf2-48b4-9741-e3cbecb92b5d:
+      x: 702.5
+      y: 422
+name: NewWebSocketHub
+description: SignalR operations
+children:
+- id: 4b57717e-a2be-4073-8619-768ef1cfb0fb
+  type: web-socket-operation
