@@ -14,6 +14,9 @@ annotations:
       f6f7a7a6-2bf2-48b4-9741-e3cbecb92b5d:
         x: 1235.5
         y: 125.5
+      a9a5ef87-b2cb-84db-3366-56d339eee631:
+        x: 390.5
+        y: 124.5
 port: 10000
 proxy: traefik
 name: NewGateway
