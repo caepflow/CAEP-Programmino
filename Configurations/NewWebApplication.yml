@@ -1,26 +1,26 @@
 id: f4eba468-7a9c-40b7-bfaa-870d8092e0dc
 type: web-application
 interactions:
-- targetId: f6f7a7a6-2bf2-48b4-9741-e3cbecb92b5d
-  type: service
-  level: container
+  - targetId: f6f7a7a6-2bf2-48b4-9741-e3cbecb92b5d
+    type: service
+    level: container
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    554a6ba5-d586-476c-87c0-201bf1ef7f96:
-      x: 378
-      y: 125.5
-    f6f7a7a6-2bf2-48b4-9741-e3cbecb92b5d:
-      x: 1487.5
-      y: 125.5
-- namespace: c4modeler
-  name: boundary
-  value:
-    x: 140.5
-    y: 562.5
-    width: 281
-    height: 666
+  - namespace: c4modeler
+    name: position
+    value:
+      554a6ba5-d586-476c-87c0-201bf1ef7f96:
+        x: 378
+        y: 125.5
+      f6f7a7a6-2bf2-48b4-9741-e3cbecb92b5d:
+        x: 1487.5
+        y: 125.5
+  - namespace: c4modeler
+    name: boundary
+    value:
+      x: 140
+      y: 331.5
+      width: 280
+      height: 663
 prefix: app
 author: CodeArchitects
 target: angular@19
@@ -29,9 +29,9 @@ strict: false
 name: NewWebApplication
 description: Angular application
 children:
-- id: 690b7af4-e00f-4b12-851f-1a7c91e9858a
-  type: application
-- id: 740962cc-02e8-40f8-955b-83e18d4c00fe
-  type: domain
-- id: 39700261-553e-44fd-9324-00944509fe3c
-  type: scenario
+  - id: 690b7af4-e00f-4b12-851f-1a7c91e9858a
+    type: application
+  - id: 740962cc-02e8-40f8-955b-83e18d4c00fe
+    type: domain
+  - id: 39700261-553e-44fd-9324-00944509fe3c
+    type: scenario

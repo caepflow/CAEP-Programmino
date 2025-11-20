@@ -4,9 +4,6 @@ interactions:
   - targetId: d89d04b0-81ce-400b-968f-20f6edc4f8bb
     type: database
     level: container
-  - targetId: 690b7af4-e00f-4b12-851f-1a7c91e9858a
-    type: application
-    level: component
 annotations:
   - namespace: c4modeler
     name: position
@@ -15,8 +12,8 @@ annotations:
         x: 252
         y: 422
       f4eba468-7a9c-40b7-bfaa-870d8092e0dc:
-        x: 140.5
-        y: 58.5
+        x: 420
+        y: 331.5
   - namespace: c4modeler
     name: boundary
     value:
