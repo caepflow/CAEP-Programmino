@@ -1,15 +1,15 @@
 id: 0a5fee99-4982-48de-b6f6-1d5781b360b4
 type: database
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    a1694809-d48b-4a35-8b3a-d8791d061921:
-      x: 252
-      y: 674
-    5f557160-61ca-4bb2-928b-be1bc0c6b3df:
-      x: 983.5
-      y: 125.5
+  - namespace: c4modeler
+    name: position
+    value:
+      a1694809-d48b-4a35-8b3a-d8791d061921:
+        x: 342.14925373134326
+        y: 649.8528784648188
+      5f557160-61ca-4bb2-928b-be1bc0c6b3df:
+        x: 983.5
+        y: 125.5
 name: NewDatabase
 provider: sqlserver
 description: SQL Database
